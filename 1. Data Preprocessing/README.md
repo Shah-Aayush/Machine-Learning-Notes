@@ -68,11 +68,13 @@
 		1. Standardisation : 
 			
 			<img src="https://render.githubusercontent.com/render/math?math=X_{stand}\=\frac{x-mean(x)}{standard deviation(x)}">
+			
 			- all the features will take values in (-3,3)
 			- This will work all the time *[RECOMMENDED APPROACH]*
 		2. Normalisation : 
 			
 			<img src="https://render.githubusercontent.com/render/math?math=X_{norm}\=\frac{x-min(x)}{max(x) - min(x)}">
+			
 			- all the features will take values in (-1,1)
 			- This will work we have normal distribution in most of features
 	- We don't have to apply feature scaling on dummy variables which are generated here with `ColumnTransformer`,`OneHotEncoder` and `LabelEncoder`.
