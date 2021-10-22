@@ -66,15 +66,11 @@
 	- to avoid some feature to be dominated by other features in *some* machine learning models
 	- Two methods: 
 		1. Standardisation : 
-			X<sub>stand</sub> = \frac{x-mean(x)}{standard deviation(x)}
-			
-			X<sub>stand</sub> = <img src="https://render.githubusercontent.com/render/math?math=X\textsubscript{stand}\=\frac{x-mean(x)}{standard deviation(x)}">
+			<img src="https://render.githubusercontent.com/render/math?math=X_{stand}\=\frac{x-mean(x)}{standard deviation(x)}">
 			- all the features will take values in (-3,3)
 			- This will work all the time *[RECOMMENDED APPROACH]*
 		2. Normalisation : 
-			X<sub>norm</sub> = \frac{x-min(x)}{max(x) - min(x)}
-			
-			X<sub>norm</sub> = <img src="https://render.githubusercontent.com/render/math?math=X_{norm}\=\frac{x-min(x)}{max(x) - min(x)}">
+			<img src="https://render.githubusercontent.com/render/math?math=X_{norm}\=\frac{x-min(x)}{max(x) - min(x)}">
 			- all the features will take values in (-1,1)
 			- This will work we have normal distribution in most of features
 	- We don't have to apply feature scaling on dummy variables which are generated here with `ColumnTransformer`,`OneHotEncoder` and `LabelEncoder`.
@@ -87,8 +83,3 @@
 	X_train[:,3:] = sc.fit_transform(X_train[:,3:])
 	X_test[:,3:] = sc.transform(X_test[:,3:])
 	```
-
-# testing : 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-<img src="https://render.githubusercontent.com/render/math?math=\frac{x-mean(x)}{standard deviation(x)}">
-<img src="https://render.githubusercontent.com/render/math?math=\frac{x-min(x)}{max(x) - min(x)}">
