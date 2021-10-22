@@ -83,3 +83,8 @@
 	X_train[:,3:] = sc.fit_transform(X_train[:,3:])
 	X_test[:,3:] = sc.transform(X_test[:,3:])
 	```
+
+# testing : 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{x-mean(x)}{standard deviation(x)}">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{x-min(x)}{max(x) - min(x)}">
