@@ -57,6 +57,7 @@
 - ## Splitting the dataset into the Training set and Test set
 	- `test_size` is split size for test set. here we will give it `0.2` value which is *20%* of whole data.
 	- setting random_state at 1 will fix the random values. every time we execute this code it will give same randomized values.
+	- by default `random_state` is set to `None`. which means that each time we execute this, will give different result.  upon setting fix integer value to this, will seed a number to random generator and give the same output each time we execute the snippet.
 	```py
 	from sklearn.model_selection import train_test_split
 	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
@@ -87,3 +88,18 @@
 	X_train[:,3:] = sc.fit_transform(X_train[:,3:])
 	X_test[:,3:] = sc.transform(X_test[:,3:])
 	```
+	
+- ### `Data.csv` : 
+
+	| Country | Age | Salary | Purchased |
+	| ------- | --- | ------ | --------- |
+	| France  | 44  | 72000  | No        |
+	| Spain   | 27  | 48000  | Yes       |
+	| Germany | 30  | 54000  | No        |
+	| Spain   | 38  | 61000  | No        |
+	| Germany | 40  |        | Yes       |
+	| France  | 35  | 58000  | Yes       |
+	| Spain   |     | 52000  | No        |
+	| France  | 48  | 79000  | Yes       |
+	| Germany | 50  | 83000  | No        |
+	| France  | 37  | 67000  | Yes       |
