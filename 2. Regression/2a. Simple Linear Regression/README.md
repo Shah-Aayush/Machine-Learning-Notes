@@ -100,19 +100,20 @@
 ---
 
 ## A Caveat : 
-	Assumptions of a Linear Regression : 
-		1. Linearity
-			- The relationship between X and the mean of Y is linear.
-		2. Homoscedasticity
-			- **Meaning** : Homoskedastic (also spelled "homoscedastic") refers to a condition in which the variance of the residual, or error term, in a regression model is constant. That is, the error term does not vary much as the value of the predictor variable changes.
-			- The variance of residual is the same for any value of X.
-		3. Multivariate normality
-			- For any fixed value of X, Y is normally distributed.
-		4. Independence of errors
-			- Observations are independent of each other.
-		5. Lack of multicollinearity
-			- the independent variables is highly correlated with each other.
-			- The absence of perfect multicollinearity, which is an exact (non-stochastic) linear relation among the predictors.
+
+- Assumptions of a Linear Regression : 
+	1. Linearity
+		- The relationship between X and the mean of Y is linear.
+	2. Homoscedasticity
+		- **Meaning** : Homoskedastic (also spelled "homoscedastic") refers to a condition in which the variance of the residual, or error term, in a regression model is constant. That is, the error term does not vary much as the value of the predictor variable changes.
+		- The variance of residual is the same for any value of X.
+	3. Multivariate normality
+		- For any fixed value of X, Y is normally distributed.
+	4. Independence of errors
+		- Observations are independent of each other.
+	5. Lack of multicollinearity
+		- the independent variables is highly correlated with each other.
+		- The absence of perfect multicollinearity, which is an exact (non-stochastic) linear relation among the predictors.
 		
 ---
 
