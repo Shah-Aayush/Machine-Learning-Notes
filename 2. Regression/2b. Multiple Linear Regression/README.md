@@ -44,7 +44,7 @@
 	
 	- `Forward Selection` : 
 		1. Select a significance level to enter the model (e.g. SL = 0.05)
-		2. Fit all simple regression models y ~ x<sub>n</sub>. Select the one with the lowest P-value.
+		2. Fit all simple regression models **y ~ x<sub>n</sub>**. Select the one with the lowest P-value.
 		3. Keep this variable and fit all possible models with one extra predictor added to the one(s) you already have.
 		4. Consider the predictor with the lowest P-value. If `P < SL`, go to step 3, otherwise go to FINISH.
 		
@@ -60,7 +60,7 @@
 		
 	- `All Possible Models` : 
 		1. Select a criterion  of  goodness of fit *(e.g. Akaike criterion)*
-		2. Construct all possible regression Models : 2<sup>N</sup>-1 total combinations
+		2. Construct all possible regression Models : **2<sup>N</sup>-1** total combinations
 		3. Select the one with the best criterion.
 		
 		FINISH : Your model is ready.
