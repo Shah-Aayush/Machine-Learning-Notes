@@ -60,7 +60,7 @@
 		
 	- `All Possible Models` : 
 		1. Select a criterion  of  goodness of fit *(e.g. Akaike criterion)*
-		2. Construct all possible regression Models : `2<sup>N</sup>-1` total combinations
+		2. Construct all possible regression Models : 2<sup>N</sup>-1 total combinations
 		3. Select the one with the best criterion.
 		
 		FINISH : Your model is ready.
