@@ -1,6 +1,72 @@
 # Multiple Linear Regression
 
+- ## Libraries to be imported : 
+	```py
+	import numpy as np
+	import matplotlib.pyplot as plt
+	import pandas as pd
+	```
 
+- ## Importing the dataset
+	```py
+	dataset = pd.read_csv('50_Startups.csv')
+	X = dataset.iloc[:,:-1].values
+	y = dataset.iloc[:,-1].values
+	```
+
+- ## Encoding Categorical data
+	```py
+	from sklearn.compose import ColumnTransformer
+	from sklearn.preprocessing import OneHotEncoder
+	ct = ColumnTransformer(transformer=['encoder',OneHotEncoder, [3]), remainder = 'passthrough'])
+	X = np.array(ct.fit_transform(X))
+	```
+
+- ## Splitting the dataset into the training set and testing set
+	```py
+	from sklearn.model_selection import train_test_split
+	X_test, X_train, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = 0)
+	```
+	- Here we don't have to apply feature scalling as the coefficient of the variables will compensate the higher and lower values of variables.
+	> So there is no need to do **Feeature Scalling** in Multiple Linear Regression
+	- We also need not to check for the assumptions of Linear Regression here.
+
+- ## Training the Multiple Linear Regression model on the training set
+	- Here we need not to worry about **Dummy variablese** as This MultipleLinearRegression class will take care of it.
+	- Also we need not to worry about P-values and backward propagation here as this model will take care of it too!
+	```py
+	from sklearn.linear_model import LinearRegression
+	regressor = LinearRegression()
+	regressor.fit(X_train, y_train)
+	```
+
+- ## Predicting the test set results
+	```py
+	y_pred = regressor.predict(X_test)
+	np.set_printoptions(precision=2) # will display only 2 numbers after decimal point.
+	# print(y_pred)
+	
+	print(np.concatenate
+			(
+				(
+					y_pred.reshape(len(y_pred),1), 
+					y_test.reshape(len(y_test),1)
+			    ),
+				axis = 1 # 0 means vertical concatination; 1 means horizontal concatination
+			)
+		 )
+	```
+	
+- ## Making a single prediction
+	- for example the profit of a startup with R&D Spend = 160000, Administration Spend = 130000, Marketing Spend = 300000 and State = 'California'
+	```py
+	print(regressor.predict([[1, 0, 0, 160000, 130000, 300000]]))
+	```
+	- Getting the final linear regression equation with the values of the coefficients
+	```py
+	print(regressor.coef_)
+	print(regressor.intercept_)
+	```
 
 ---
 
