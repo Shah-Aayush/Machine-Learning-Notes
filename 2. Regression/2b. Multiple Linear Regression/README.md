@@ -46,15 +46,12 @@
 	np.set_printoptions(precision=2) # will display only 2 numbers after decimal point.
 	# print(y_pred)
 	
-	print(np.concatenate
-			(
-				(
-					y_pred.reshape(len(y_pred),1), 
-					y_test.reshape(len(y_test),1)
-			    ),
-				axis = 1 # 0 means vertical concatination; 1 means horizontal concatination
-			)
-		 )
+	print(
+	np.concatenate( 
+		( y_pred.reshape(len(y_pred),1), y_test.reshape(len(y_test),1) ),
+		axis = 1 # 0 means vertical concatination; 1 means horizontal concatination
+		)
+	)
 	```
 	
 - ## Making a single prediction
