@@ -52,7 +52,6 @@
 	plt.ylable('Salary')
 	plt.title('Truth or Bluff (Linear Regression)')
 	plt.show()
-	
 	```
 
 - ## Visualising the Polynomial Regression results
@@ -92,7 +91,8 @@
 
 ---
 
-# `Position_Salaries.csv`
+- # `Position_Salaries.csv`
+
 	|Position         |Level|Salary |
 	|-----------------|-----|-------|
 	|Business Analyst |1    |45000  |
