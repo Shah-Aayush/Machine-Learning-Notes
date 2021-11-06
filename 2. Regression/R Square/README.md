@@ -20,7 +20,7 @@
 
 ## Adjusted R<sup>2</sup>
 
-- <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE;{\color{Golden};Adj R^2=1-(1-R^2)\frac{n-1}{n-p-1}}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\LARGE;{\color{Golden};Adj R^2=1-(1-R^2)\frac{n-1}{n-p-1}}" title="\LARGE {\color{Golden} Adj R^2=1-(1-R^2)\frac{n-1}{n-p-1}}" /></a>
+- <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE;{\color{Golden};Adj&space;R^2=1-(1-R^2)\frac{n-1}{n-p-1}}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\LARGE;{\color{Golden};Adj&space;R^2=1-(1-R^2)\frac{n-1}{n-p-1}}" title="\LARGE {\color{Golden} Adj R^2=1-(1-R^2)\frac{n-1}{n-p-1}}" /></a>
 	- p - number of regressors *(Number of independent variables)*
 	- n - sample size
 - So by this formula, adding more variables will decrease the R square unlike above formula.
