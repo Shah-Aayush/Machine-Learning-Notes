@@ -12,3 +12,7 @@
 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))" target="_blank"><img src="https://latex.codecogs.com/png.latex?SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))" title="SS_{res}=SUM((y_i - \hat{y_{i}})^2))" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex={\color{Golden}SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))}" target="_blank"><img src="https://latex.codecogs.com/png.latex?{\color{Golden}SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))}" title="{\color{Golden}SS_{res}=SUM((y_i - \hat{y_{i}})^2))}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex={\color{Yellow}SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))}" target="_blank"><img src="https://latex.codecogs.com/png.latex?{\color{Golden}SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))}" title="{\color{Golden}SS_{res}=SUM((y_i - \hat{y_{i}})^2))}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex={\color{Cyan}SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))}" target="_blank"><img src="https://latex.codecogs.com/png.latex?{\color{Golden}SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))}" title="{\color{Golden}SS_{res}=SUM((y_i - \hat{y_{i}})^2))}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex={\color{Blue}SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))}" target="_blank"><img src="https://latex.codecogs.com/png.latex?{\color{Golden}SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))}" title="{\color{Golden}SS_{res}=SUM((y_i - \hat{y_{i}})^2))}" /></a>
