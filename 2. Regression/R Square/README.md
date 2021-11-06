@@ -11,4 +11,4 @@
 <img src="https://latex.codecogs.com/svg.latex?\Large;R^2=1-\frac{SS_{res}}{SS_{tot}}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))" title="SS_{res}=SUM((y_i - \hat{y_{i}})^2))" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))" target="_blank"><img src="https://latex.codecogs.com/png.latex?SS_{res}=SUM((y_i&space;-&space;\hat{y_{i}})^2))" title="SS_{res}=SUM((y_i - \hat{y_{i}})^2))" /></a>
