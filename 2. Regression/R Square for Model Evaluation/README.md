@@ -30,6 +30,6 @@
 
 - Evaluating the Model Performance
 	```py
-	from sklearn.metrics import r2_square
-	r2_square(y_test, y_pred)
+	from sklearn.metrics import r2_score
+	r2_score(y_test, y_pred)
 	```
