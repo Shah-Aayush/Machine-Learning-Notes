@@ -25,3 +25,11 @@
 	- n - sample size
 - So by this formula, adding more variables will decrease the R square unlike above formula.
 - This will help us to determine whether the model is good or not.
+
+## CODE : 
+
+- Evaluating the Model Performance
+	```py
+	from sklearn.metrics import r2_square
+	r2_square(y_test, y_pred)
+	```
