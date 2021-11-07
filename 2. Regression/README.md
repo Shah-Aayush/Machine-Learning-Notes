@@ -17,3 +17,15 @@ SVR | Easily adaptable, works very well on non linear problems, not biased by ou
 Decision Tree Regression | Interpretability, no need for feature scaling, works on both linear / nonlinear problems | Poor results on too small datasets, overfitting can easily occur |
 Random Forest Regression | Powerful and accurate, good performance on many problems, including non linear | No interpretability, overfitting can easily occur, need to choose the number of trees |
 
+# Regularization :
+
+- No Regularization
+	![No Regularization](/assets/no_regularization.png "No Regularization formula")
+- Lasso Regression (L1 regularization)
+	![Lasso Regression (L1 regularization)](/assets/lasso_regression.png "Lasso Regression (L1 regularization)")
+- Ridge Regression  (L2 regularization)
+	![Ridge Regression  (L2 regularization)](/assets/ridge_regression.png "Ridge Regression  (L2 regularization) formula")
+- Elastic Net Regression
+	![Elastic Net Regression](/assets/elastic_net_regression.png "Elastic Net Regression formula")
+
+> [Learn more...](https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net)
