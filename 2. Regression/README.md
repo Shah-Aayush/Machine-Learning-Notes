@@ -20,12 +20,12 @@ Random Forest Regression | Powerful and accurate, good performance on many probl
 # Regularization :
 
 - No Regularization
-	![No Regularization](/assets/no_regularization.png "No Regularization formula")
+	![No Regularization](./assets/no_regularization.png "No Regularization formula")
 - Lasso Regression (L1 regularization)
-	![Lasso Regression (L1 regularization)](/assets/lasso_regression.png "Lasso Regression (L1 regularization)")
+	![Lasso Regression (L1 regularization)](./assets/lasso_regression.png "Lasso Regression (L1 regularization)")
 - Ridge Regression  (L2 regularization)
-	![Ridge Regression  (L2 regularization)](/assets/ridge_regression.png "Ridge Regression  (L2 regularization) formula")
+	![Ridge Regression  (L2 regularization)](./assets/ridge_regression.png "Ridge Regression  (L2 regularization) formula")
 - Elastic Net Regression
-	![Elastic Net Regression](/assets/elastic_net_regression.png "Elastic Net Regression formula")
+	![Elastic Net Regression](./assets/elastic_net_regression.png "Elastic Net Regression formula")
 
 > [Learn more...](https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net)
