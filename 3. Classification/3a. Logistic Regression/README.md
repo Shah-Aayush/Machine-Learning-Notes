@@ -159,6 +159,7 @@
 
 - # `Social_Network_Ads.csv`
 	- First 10 rows ...
+	
 	|Age|EstimatedSalary|Purchased|
 	|---|---------------|---------|
 	|19 |19000          |0        |
