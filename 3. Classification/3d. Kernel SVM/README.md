@@ -1,12 +1,6 @@
-# Support Vector Machine (SVM)
+# Kernel SVM
 
-- SVM maximizes the margin (as drawn in fig. 1) by learning a suitable decision boundary/decision surface/separating hyperplane.
-- Distance b/w closest point and decision boundary is called *Maximum Margin*
-- Points closer to Decision Boundary are called *support vectors*
-- Separation line is called **Maximum Margin Hyperplane** *(Maximum Margin Classifier)*
-	- There is one positive Hyperplane and a Negative Hyperplane
-
----
+## **Implementation**
 
 - ## Importing the libraries
 	```py
@@ -39,11 +33,11 @@
 	X_test = sc.transform(X_test)
 	```
 	
-- ## Training the SVM model on the Training set
+- ## Training the Kernel SVM model on the Training set
 	- Here metric set to `minkowski` and p=2 means equivalent to the **STANDARD EUCLIDEAN METRIC**.
 	```py
 	from sklearn.svm import SVC   # Support Vector Classifier
-	classifier = SVC(kernel='linear', random_state=0)   # Choosing the linear kernel; Default is `rbf`
+	classifier = SVC(kernel='rbf', random_state=0)   # Choosing the Radial Basis Kernel which is by default! anyways... :)
 	classifier.fit(X_train, y_train)
 	```	
 - ## Predicting a new result
@@ -88,7 +82,42 @@
 	ac = accuracy_score(y_test, y_pred)
 	print(ac)
 	```
+
+
+---
+
+## Understanding why we need kernel
+
+- SVM cannot work when data is not **Linearly Separable**
+- For data which is not linearly separable, Kernel SVM comes in action!
+- We have to map function to higher dimension in order to separate the data.
+	> In this case, If we are going from 2D to 3D then the separator will be Hyperplane instead of Line.
+- Mapping to a higher Dimensional Space can be highly compute-intensive
+
+## The Gaussian RBF Kernel
+
+> (Radial Basis Function)
 	
+- With help of this, we can classify the data without mapping our function to higher dimension
+
+![RBF Kernel formula](./assets/the_gaussian_RBF_kernel.png)
+
+- This is only a visual representation. we are not going in 3D from 2D
+
+| Increase Sigma value | Decrease Sigma value |
+|---|---|
+| ![Will Increase the span of curve](./assets/increase_sigma.png "Will Increase the span of curve") | ![Will Decrease the span of curve](./assets/decrease_sigma.png "Will Decrease the span of curve") |
+
+- Different types of kernel
+	![Types of Kernels](./assets/types_of_kernels.png "Types of Kernels") 
+
+	- [Learn more...](https://datafreakankur.com/machine-learning-kernel-functions-3d-visualization/)
+
+# Non-Linear SVR
+
+- ![Non Linear SVR](./assets/non_linear_SVR.png "Non Linear SVR") 
+
+- ![Non Linear SVR](./assets/non_linear_SVR_2.png "Non Linear SVR 2") 
 
 
 ---
