@@ -11,7 +11,7 @@
 ## Confusion Matrix
 - DV : Dependent Variable
 
-||**y^**|**(Predicted DV)**|
+||**y^**|**(Predicted DV)**||
 |---|---|---|---|
 | | |*0*|*1*|
 |**y**|*0*|35|5|
@@ -32,6 +32,7 @@
 ## Accuracy Paradox
 
 - When we remove our model and decide to always predict `zero`, then accuracy is increasing which is confusion! this should not happen. 
+
 | Before | After setting prediction always to 0 |
 |---|---|
 |![senario 1](./assets/2.png)|![senario 2](./assets/3.png) |
@@ -41,6 +42,7 @@
 ##  CAP Curve	*Cumulative Accuracy Profile*
 
 - The better the model, the larger the area will be covered under the CAP curve.
+
 | CAP curve for a new product purchase email |
 |---|
 |![CAP curve](./assets/4.png)|
