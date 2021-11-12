@@ -11,7 +11,7 @@
 ## Confusion Matrix
 - DV : Dependent Variable
 
-||**y^**|**(Predicted DV)**||
+|||**y^**|**(Predicted DV)**|
 |---|---|---|---|
 | | |*0*|*1*|
 |**y**|*0*|35|5|
