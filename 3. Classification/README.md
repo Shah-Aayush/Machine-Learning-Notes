@@ -12,7 +12,7 @@
 
 |Classification|
 |---|
-|![pros and cons]("https://github.com/Shah-Aayush/Machine-Learning-Notes/blob/master/3.%20Classification/Model%20Performance%20Evaluation/assets/6.png")|
+|![pros and cons](./"Model Performance Evaluation"/assets/6.png)|
 
 
 ---
