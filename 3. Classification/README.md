@@ -12,7 +12,7 @@
 
 |Classification|
 |---|
-|![pros and cons](./Model Performance Evaluation/assets/6.png "pros and cons")|
+|![pros and cons](./Model Performance Evaluation/assets/6.png)|
 
 
 ---
