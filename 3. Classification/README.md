@@ -13,7 +13,9 @@
 |Classification|
 |---|
 | ![pros and cons](./Model Performance Evaluation/assets/6.png) |
+| ![pros and cons](/Model Performance Evaluation/assets/6.png) |
 
+![](https://github.com/Shah-Aayush/Machine-Learning-Notes/blob/138a4ea0ce854208c0ab8dc93bf7dec30549473f/3.%20Classification/Model%20Performance%20Evaluation/assets/6.png)
 
 ---
 
