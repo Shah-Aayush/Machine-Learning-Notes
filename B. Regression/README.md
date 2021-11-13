@@ -35,5 +35,4 @@ Random Forest Regression | Powerful and accurate, good performance on many probl
 
 	![Elastic Net Regression](./assets/elastic_net_regression.png "Elastic Net Regression formula")
 	
-
 > [Learn more...](https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net)
