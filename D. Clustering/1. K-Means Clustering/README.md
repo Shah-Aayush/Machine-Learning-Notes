@@ -23,6 +23,7 @@
 		
 - ## Choosing the right number of clusters 
 	- Method : Within Sum of Squares *(WSS)*
+	
 	|Formula|
 	|---|
 	|![formula](./assets/4.png)|
