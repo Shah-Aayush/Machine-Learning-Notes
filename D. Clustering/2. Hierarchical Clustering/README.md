@@ -1,6 +1,6 @@
 # Hierarchical Clustering
 
-## **Intuition **
+## **Intuition**
 
 |What does Hierarchical Clustering do ?|
 |---|
@@ -26,6 +26,6 @@
 
 |Distance between clusters|
 |---|
-|![Different method for calculating distances b/w two clusters](./assets/2.png "Different method for calculating distances b/w two clusters")|
+|![Different method for calculating distances b/w two clusters](./assets/3.png "Different method for calculating distances b/w two clusters")|
 
 - Hierarchical clustering maintains the memory of how we formed the different clusters.
