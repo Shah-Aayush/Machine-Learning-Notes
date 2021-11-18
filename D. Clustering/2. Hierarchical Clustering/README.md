@@ -46,3 +46,21 @@
 |![](./assets/9.png "Final Dendrogram")|
 
 ## Using Dendrograms
+
+- We have to set Distance/Dissimilarity Threshold on Euclidean Distance axis. 
+	> The number of vertical lines crosses the threshold line *(Horizontal line)* is equal to the number of cluster at the current threshold we have.
+	> Here we have `2` clusters.
+	
+|2 clusters|4 clusters|6 clusters|
+|---|---|---|
+|![](./assets/10.png "2 clusters")|![](./assets/11.png "4 clusters")|![](./assets/12.png "6 clusters")|
+
+- As if we are using `ELBOW` method in k-means clustering, to find optimal numbers of clusters, here are using this method to find *Optimal Number Of Clusters*
+
+|Largest distance = optimal number of clusters = 2|
+|---|
+|![](./assets/13.png "Here, optimal number of clusters is 2")|
+
+|Another Example|
+|---|
+|![](./assets/14.png "Here, optimal number of clusters is 3")|
