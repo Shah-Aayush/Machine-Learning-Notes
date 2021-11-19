@@ -6,9 +6,9 @@
 	- [K-Means Clustering](./1.%20K-Means%20Clustering)
 	- [Hierarchical Clustering](./2.%20Hierarchical%20Clustering)
 	
-# Pros and Cons of Clustering models : 
+- # Pros and Cons of Clustering models : 
 
-|Clustering Model|Pros|Cons|
-|---|---|
-|K-Means Clustering|Simple to understand, easily adaptable, works well on small or large datasets, fast, efficient and performant|Need to choose the  number of clusters|
-|Hierarchical Clustering|The optimal number of clusters  can be obtained by the model itself, practical visualisation with the dendrogram|Not appropriate for large datasets|
+	|Clustering Model|Pros|Cons|
+	|---|---|
+	|K-Means Clustering|Simple to understand, easily adaptable, works well on small or large datasets, fast, efficient and performant|Need to choose the  number of clusters|
+	|Hierarchical Clustering|The optimal number of clusters  can be obtained by the model itself, practical visualisation with the dendrogram|Not appropriate for large datasets|
