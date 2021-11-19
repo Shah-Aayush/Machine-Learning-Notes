@@ -106,11 +106,11 @@ dendrogram = sch.dendrogram(sch.linkage(X, method='ward'))    # method of minimu
 		- `n_clusters`
 		- `affinity` : Type of distance calculation (Euclidean method)
 		- `linkage` : ward method (Minimum Variance method)
-	```py
-	from sklearn.cluster import AgglomerativeClustering
-	hc = AgglomerativeClustering(n_clusters=5, affinity='euclidean', linkage='ward')
-	y_hc = hc.fit_predict(X)
-	```
+		```py
+		from sklearn.cluster import AgglomerativeClustering
+		hc = AgglomerativeClustering(n_clusters=5, affinity='euclidean', linkage='ward')
+		y_hc = hc.fit_predict(X)
+		```
 	- Predicted clusters : 
 	```py
 	y_hc = hc.predict(X)
