@@ -1,4 +1,10 @@
-# Artifical Neural Network
+# Artificial Neural Network **(ANN)**
+
+- ## Implementation using Tensorflow : 
+	1. [Classification with ANN](./1.%20Classification)
+	2. [Regression with ANN](./2.%20Regression)
+	
+## Intuition of ANN : 
 
 - This section covered following topics :
 	- The Neuron
@@ -81,27 +87,5 @@
 	- STEP 5: Back-Propagation: from right to left, the error is back-propagated. Update the weights according to how much they are responsible for the error. The learning rate decides by how much we update the weights. 
 	- STEP 6: Repeat Steps 1 to 5 and update the weights after each observation (Reinforcement Learning). Or: Repeat Steps 1 to 5 but update the weights only after a batch of observations (Batch Learning). 
 	- STEP 7: When the whole training set passed through the ANN, that makes an epoch. Redo more epochs. 
-
 	
----
-
-# **Implementation**
-
-
-
----
-
-- ## Dataset : `Churn_Modelling.csv`
-
-|RowNumber|CustomerId|Surname |CreditScore|Geography|Gender|Age|Tenure|Balance  |NumOfProducts|HasCrCard|IsActiveMember|EstimatedSalary|Exited|
-|---------|----------|--------|-----------|---------|------|---|------|---------|-------------|---------|--------------|---------------|------|
-|1        |15634602  |Hargrave|619        |France   |Female|42 |2     |0        |1            |1        |1             |101348.88      |1     |
-|2        |15647311  |Hill    |608        |Spain    |Female|41 |1     |83807.86 |1            |0        |1             |112542.58      |0     |
-|3        |15619304  |Onio    |502        |France   |Female|42 |8     |159660.8 |3            |1        |0             |113931.57      |1     |
-|4        |15701354  |Boni    |699        |France   |Female|39 |1     |0        |2            |0        |0             |93826.63       |0     |
-|5        |15737888  |Mitchell|850        |Spain    |Female|43 |2     |125510.82|1            |1        |1             |79084.1        |0     |
-|6        |15574012  |Chu     |645        |Spain    |Male  |44 |8     |113755.78|2            |1        |0             |149756.71      |1     |
-|7        |15592531  |Bartlett|822        |France   |Male  |50 |7     |0        |2            |1        |1             |10062.8        |0     |
-|8        |15656148  |Obinna  |376        |Germany  |Female|29 |4     |115046.74|4            |1        |0             |119346.88      |1     |
-|9        |15792365  |He      |501        |France   |Male  |44 |4     |142051.07|2            |0        |1             |74940.5        |0     |
-|10       |15592389  |H?      |684        |France   |Male  |27 |2     |134603.88|1            |1        |1             |71725.73       |0     |
+- [Learn more about ANN...](https://www.superdatascience.com/blogs/the-ultimate-guide-to-artificial-neural-networks-ann)
