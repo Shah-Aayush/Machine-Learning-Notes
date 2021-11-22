@@ -16,4 +16,4 @@
 
 |What is Deep Learning|
 |---|
-|![][./assets/deep_learning.png "How Deep Learning model looks like?"]|
+| ![](./assets/deep_learning.png "How Deep Learning model looks like?") |
